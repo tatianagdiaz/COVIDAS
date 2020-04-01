@@ -1,0 +1,1124 @@
+      [
+    {
+         "id":"document",
+       "name":"Ejemplo CZML",
+       "version":"1.0",
+       "clock":{
+           "interval":"2020-03-06T08:00:00Z/2020-03-28T08:00:00Z",
+           "currentTime":"2020-03-06T08:00:00Z",
+           "multiplier":50000
+       }
+    },
+
+    {
+        "id":"shape1",
+        "name":"ciudadbogota",
+        "position":{
+            "cartographicDegrees":[
+            -74.081749,
+             4.6097102,0
+          ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"9000",
+            "semiMajorAxis":"9000",
+           "extrudedHeight":
+           [
+                             {
+                "interval":"2020-03-06T08:00:00Z/2020-03-11T08:00:00Z",
+                "number":1000
+                },
+             {
+                "interval":"2020-03-11T08:00:00Z/2020-03-12T08:00:00Z",
+                "number":3000
+                },
+             {
+                "interval":"2020-03-12T08:00:00Z/2020-03-13T08:00:00Z",
+                "number":5000
+                },
+             {
+                "interval":"2020-03-13T08:00:00Z/2020-14-07T08:00:00Z",
+                "number":6000
+                },
+             {
+                "interval":"2020-03-14T08:00:00Z/2020-03-15T08:00:00Z",
+                "number":11000
+                },
+             {
+                "interval":"2020-03-15T08:00:00Z/2020-03-16T08:00:00Z",
+                "number":17000
+                },
+             {
+                "interval":"2020-03-16T08:00:00Z/2020-03-17T08:00:00Z",
+                "number":28000
+                },
+             {
+                "interval":"2020-03-17T08:00:00Z/2020-03-18T08:00:00Z",
+                "number":37000
+                },
+             {
+                "interval":"2020-03-18T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":42000
+                },
+             {
+                "interval":"2020-03-19T08:00:00Z/2020-03-20T08:00:00Z",
+                "number":50000
+                },
+             {
+                "interval":"2020-03-20T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":79000
+                },
+             {
+                "interval":"2020-03-21T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":85000
+                },
+             {
+                "interval":"2020-03-22T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":89000
+                },
+             {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":111000
+                },
+             {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":159000
+                },
+             {
+                "interval":"2020-03-25T08:00:00Z/2020-03-26T08:00:00Z",
+                "number":175000
+                },
+             {
+                "interval":"2020-03-26T08:00:00Z/2020-03-27T08:00:00Z",
+                "number":182000
+                },
+             {
+                "interval":"2020-03-27T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":223000
+                }
+            ],
+            "height":0,
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[255, 0, 0, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape2",
+        "name":"ciudadmedellin",
+        "position":{
+            "cartographicDegrees":[
+            -75.563591,
+             6.2518401,0
+          ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-09T08:00:00Z/2020-03-11T08:00:00Z",
+                "number":1000
+                },
+             {
+                "interval":"2020-03-11T08:00:00Z/2020-03-14T08:00:00Z",
+                "number":4000
+                },
+             {
+                "interval":"2020-03-14T08:00:00Z/2020-03-15T08:00:00Z",
+                "number":7000
+                },
+             {
+                "interval":"2020-03-15T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":8000
+                },
+             {
+                "interval":"2020-03-19T08:00:00Z/2020-03-20T08:00:00Z",
+                "number":11000
+                },
+             {
+                "interval":"2020-03-20T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":22000
+                },
+             {
+                "interval":"2020-03-21T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":25000
+                },
+             {
+                "interval":"2020-03-22T08:00:00Z/2020-23-10T08:00:00Z",
+                "number":28000
+                },
+             {
+                "interval":"2020-03-23T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":50000
+                },
+             {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":60000
+                }
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[70, 10, 255, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape3",
+        "name":"ciudadvalle",
+        "position":{
+            "cartographicDegrees":[
+            -76.541276,
+             3.431625,0
+          ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[                {
+                "interval":"2020-03-09T08:00:00Z/2020-03-13T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-13T08:00:00Z/2020-03-15T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-15T08:00:00Z/2020-03-17T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-17T08:00:00Z/2020-03-18T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":13000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-20T08:00:00Z",
+                "number":14000
+                },
+                {
+                "interval":"2020-03-20T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":15000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":26000
+                },
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":31000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":37000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":66000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-26T08:00:00Z",
+                "number":71000
+                },
+                {
+                "interval":"2020-03-26T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":73000
+                }
+            ],
+            "height":0,
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[10, 25, 255, 255]
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "id":"shape4",
+        "name":"ciudadbolivar",
+        "position":{
+            "cartographicDegrees":[
+            -75.538910,
+            10.426704,0 
+          ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                           {
+                "interval":"2020-03-11T08:00:00Z/2020-03-15T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-15T08:00:00Z/2020-03-17T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-17T08:00:00Z/2020-03-18T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":7000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":9000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":14000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":16000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":21000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":26000
+                }
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[200, 355, 0, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape5",
+        "name":"ciudadhuila",
+        "position":{
+            "cartographicDegrees":[
+            -75.280350,
+            2.936205,0 
+          ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                                {
+                "interval":"2020-03-12T08:00:00Z/2020-03-16T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-16T08:00:00Z/2020-03-18T08:00:00Z",
+                "number":7000
+                },
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":8000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":9000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":10000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":11000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":14000
+                }
+            ],
+            "height":0,
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[100, 155, 100, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape6",
+        "name":"ciudadmeta",
+        "position":{
+            "cartographicDegrees":[
+            -73.634080,
+           4.142606,0 
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                            {
+                "interval":"2020-03-13T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":7000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":8000
+                }
+
+            ],
+            "height":0,
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[50, 25, 41,255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape7",
+        "name":"ciudadcundinamarca",
+        "position":{
+            "cartographicDegrees":[
+            -74.797716,
+           4.309511,0  
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                            {
+                "interval":"2020-03-15T08:00:00Z/2020-03-16T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-16T08:00:00Z/2020-03-18T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":4000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-20T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-20T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":8000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":9000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":14000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":21000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":22000
+                }
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[120, 250, 27,255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape8",
+        "name":"ciudadnorte de santander",
+        "position":{
+            "cartographicDegrees":[
+           -72.503488,
+           7.886612,0  
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                            {
+                "interval":"2020-03-15T08:00:00Z/2020-03-17T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-17T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":6000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":8000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":11000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":15000
+                }
+            ],
+            "height":0,
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[10, 250, 185, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape9",
+        "name":"ciudadrisaralda",
+        "position":{
+            "cartographicDegrees":[
+           -75.694664,
+           4.814503,0  
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                            {
+                "interval":"2020-03-15T08:00:00Z/2020-03-18T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-20T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-20T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":6000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":8000
+                },
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":13000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-124T08:00:00Z",
+                "number":14000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":17000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":19000
+                }
+            ],
+            "height":0,
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[31, 155, 204, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape10",
+        "name":"ciudadmanizales",
+        "position":{
+            "cartographicDegrees":[
+           -75.520014,
+           5.068152,0  
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-15T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":6000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":8000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-27T08:00:00Z",
+                "number":10000
+                },
+                {
+                "interval":"2020-03-27T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":11000
+                }
+
+
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[130, 35, 165, 255]
+                    }
+                }
+            }
+        }
+
+    },
+    
+    
+    {
+        "id":"shape11",
+        "name":"ciudadatlantico",
+        "position":{
+            "cartographicDegrees":[
+           -74.812525,
+           10.989497,0  
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                                {
+                "interval":"2020-03-17T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":7000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":9000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-26T08:00:00Z",
+                "number":12000
+                },
+                {
+                "interval":"2020-03-26T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":13000
+                }
+
+
+
+
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[54, 132, 176, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+
+    {
+        "id":"shape12",
+        "name":"ciudadsantander",
+        "position":{
+            "cartographicDegrees":[
+           -73.122700,
+          7.119567,0  
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                                {
+                "interval":"2020-03-17T08:00:00Z/2020-03-18T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":4000
+                }
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[54, 75, 185, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape13",
+        "name":"ciudadquindio",
+        "position":{
+            "cartographicDegrees":[
+           -75.678919,
+          4.538228,0         
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-19T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":6000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":7000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":8000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-27T08:00:00Z",
+                "number":12000
+                },
+                {
+                "interval":"2020-03-27T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":15000
+                }
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[130, 135, 165, 255]
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "id":"shape14",
+        "name":"ciudadtolima",
+        "position":{
+            "cartographicDegrees":[
+           -75.217997 ,
+          4.430346,0       
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-18T08:00:00Z/2020-03-21T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-21T08:00:00Z/2020-03-22T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":4000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":8000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":9000
+                }
+
+
+
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[50, 300, 250, 255]
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "id":"shape15",
+        "name":"ciudadcauca",
+        "position":{
+            "cartographicDegrees":[
+           -76.606350   ,
+         2.442549,0     
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+
+                {
+                "interval":"2020-03-19T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":8000
+                }
+
+
+
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[50, 25, 145, 255]
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "id":"shape16",
+        "name":"ciudadmagdalena",
+        "position":{
+            "cartographicDegrees":[
+           -74.213210,
+         11.243142,0     
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-20T08:00:00Z/2020-03-23T08:00:00Z",
+                "number":2000
+                },
+                {
+                "interval":"2020-03-23T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":3000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-25T08:00:00Z",
+                "number":4000
+                },
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-27T08:00:00Z",
+                "number":5000
+                },
+                {
+                "interval":"2020-03-27T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":7000
+                }
+
+
+
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[40, 75, 195, 255]
+                    }
+                }
+            }
+        }
+
+    },
+
+    {
+        "id":"shape17",
+        "name":"ciudadsan andres",
+        "position":{
+            "cartographicDegrees":[
+       -81.705012,
+         12.577580,0     
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":1000
+                }
+
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[320, 125, 70, 255]
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "id":"shape18",
+        "name":"ciudadcasanare",
+        "position":{
+            "cartographicDegrees":[
+       -72.400292,
+        5.342324,0     
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":1000
+                }
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[200, 105, 255, 255]
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "id":"shape19",
+        "name":"ciudadcesar",
+        "position":{
+            "cartographicDegrees":[
+       -73.243487,
+       10.478179,0     
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-22T08:00:00Z/2020-03-24T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":2000
+                }
+
+
+
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[80, 25, 15, 255]
+                    }
+                }
+            }
+        }
+    },
+
+    {
+        "id":"shape20",
+        "name":"ciudadnariño",
+        "position":{
+            "cartographicDegrees":[
+       -77.278258,
+       1.214897,0      
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                                {
+                "interval":"2020-03-24T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":1000
+                }
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[220, 15, 295, 0]
+                    }
+                }
+            }
+        }
+    },
+
+    {
+        "id":"shape21",
+        "name":"ciudadboyaca",
+        "position":{
+            "cartographicDegrees":[
+       -73.353323,
+       5.542347,0      
+           ]
+        },
+        "ellipse":{
+            "semiMinorAxis":"10000",
+            "semiMajorAxis":"10000",
+            "extrudedHeight":[
+                {
+                "interval":"2020-03-25T08:00:00Z/2020-03-26T08:00:00Z",
+                "number":1000
+                },
+                {
+                "interval":"2020-03-26T08:00:00Z/2020-03-28T08:00:00Z",
+                "number":1000
+                }
+            ],
+            "height":0,
+
+
+            "material":{
+                "solidColor":{
+                    "color":{
+                        "rgba":[40, 125, 99, 255]
+                    }
+                }
+            }
+        }
+    }
+    ]
